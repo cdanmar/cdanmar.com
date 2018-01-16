@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar.jsx';
+import Matnavbar from '../components/Matnavbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 import './About.css';
@@ -9,7 +9,7 @@ class About extends Component {
   render () {
     return (
       <div>
-        <Navbar />
+        <Matnavbar />
         <Jumbotron title ="About" subtitle="Notice how the title and subtitle changes when you navigate." />
         <div className="container">
           <div className="outer-div">

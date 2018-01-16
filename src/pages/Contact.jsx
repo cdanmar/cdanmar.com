@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar.jsx';
+import Matnavbar from '../components/Matnavbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 import './Contact.css'
@@ -9,7 +9,7 @@ class Contact extends Component {
   render () {
     return (
       <div>
-        <Navbar />
+        <Matnavbar />
         <Jumbotron title ="Contact" subtitle="Feel free to reach out if you have any questions." />
         <div className="container">
           <div className="outer-div">
