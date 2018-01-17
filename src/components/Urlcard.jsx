@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Card.css';
 
 class Card extends Component {
-    render () {
+    render() {
         return (
             <div className="card">
-                <Link to={this.props.link}>
+                <a href={this.props.url}>
                     <img className="card-img-top" src={this.props.image} alt="Card"></img>
-                </Link>
+                </a>
                 <div className="card-block">
                     <h4 className="card-title">{this.props.title}</h4>
                     <p className="card-text">{this.props.text}</p>
