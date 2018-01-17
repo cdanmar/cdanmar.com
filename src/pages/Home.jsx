@@ -14,7 +14,11 @@ class Home extends Component {
         <br />
         <div className="container">
           <div className="outer-div">
-            <Card />
+            <div className="card-deck">
+              <Card image="https://source.unsplash.com/jay5BqVyf5A/320x200" title="About Me / Contact" text="Learn more about who I am, and how to reach out" />
+              <Card image="https://source.unsplash.com/cckf4TsHAuw/320x200" title="My Work" text="See what I have been up to"/>
+              <Card image="https://source.unsplash.com/31hjRkCJrdo/320x200" title="My Resume" text="A link to my most current resume" />
+            </div>
           </div>
         </div>
         <br />

@@ -1,3 +1,9 @@
-.card-deck {
-    width: 18rem;
+.card-img-top {
+    width: 100%;
+}
+.card-inline {
+    display: inline-block;
+}
+.card-inline .card-image img {
+    all: initial;
 }
