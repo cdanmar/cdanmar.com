@@ -74,43 +74,8 @@ const photos = [
     sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
     width: 4,
     height: 3
-  },
-  {
-    src: 'https://source.unsplash.com/1200x1600/?fish',
-    srcSet: [
-      'https://source.unsplash.com/375x500/?fish 375w',
-      'https://source.unsplash.com/600x800/?fish 600w',
-      'https://source.unsplash.com/768x1024/?fish 768w',
-      'https://source.unsplash.com/1200x1600/?fish 1200w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 3,
-    height: 4
-  },
-  {
-    src: 'https://source.unsplash.com/1600x1200/?art',
-    srcSet: [
-      'https://source.unsplash.com/500x375/?art 500w',
-      'https://source.unsplash.com/800x600/?art 800w',
-      'https://source.unsplash.com/1024x768/?art 1024w',
-      'https://source.unsplash.com/1600x1200/?art 1600w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 4,
-    height: 3
-  },
-  {
-    src: 'https://source.unsplash.com/1600x1200/?dance',
-    srcSet: [
-      'https://source.unsplash.com/500x375/?dance 500w',
-      'https://source.unsplash.com/800x600/?dance 800w',
-      'https://source.unsplash.com/1024x768/?dance 1024w',
-      'https://source.unsplash.com/1600x1200/?dance 1600w'
-    ],
-    sizes: ['(min-width: 480px) 50vw,(min-width: 1024px) 33.3vw,100vw'],
-    width: 4,
-    height: 3
   }
+
 ];
 
 class Images extends React.Component {
