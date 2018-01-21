@@ -1,7 +1,31 @@
 .jumbotron {
-  background-image: url(../images/pexels-photo-698513.jpeg);
+  background-image: url(https://source.unsplash.com/3SCbUULAJGg/1500x1000);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  color: white;
+  background-size: cover;
+  color: rgb(245, 241, 241);
+}
+
+.display-3{
+  opacity:0.8;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: #fff; 
+  display: inline;
+  padding: 0.5rem;
+  
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.lead{
+  opacity:0.8;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: #fff; 
+  display: inline;
+  padding: 0.5rem;
+  
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
