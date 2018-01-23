@@ -12,18 +12,17 @@ class Portfolio extends Component {
             <div>
                 <Navbar />
                 <Jumbotron title="Portfolio" subtitle="A catalog of my most recent work." />
+                <div className="card w-75 mx-auto">
+                    <div className="card-body">
+                        <h2 className="card-title">Project Showcase</h2>
+                        <p className="card-text">A curated list of projects I have been working on lately.</p>
+                        <p className="card-text">More recent projects are usually built in React, while past projects are mostly built on Ruby on Rails. Not everything is "live", I am currently in the process of migrating a lot of projects to AWS.</p>
+                        <a href="https://reactjs.org/" className="btn btn-outline-dark"> <i className="fa fa-github" aria-hidden="true"></i> Check out my GitHub!</a>
+                    </div>
+                </div>
                 <div className="container">
-                    <div className="outer-div">
                         <div>
-                           <br />
-                            <h3 className="inner-divcol-lg-4 col-sm-12 text-center mb-4">Project Showcase</h3>
-                            <p>
-                                All projects include GitHub links and a brief description of the tech used to build them. They also include a link to a live version if available. 
-                                Not all my projects have live sites, but most are published on my <a href="https://github.com/cdanmar">GitHub</a>. 
-                                I am currently working towards making all my projects presentable so that I may showcase them here.
-
-                            </p>
-                            <div className="card-deck">
+                        <div className="card-deck mx-auto">
                                 <Projectcard 
                                     title="Back of the Yards Coffee" 
                                     text="Website I contributed to during my time at the Difference Engine."
@@ -52,7 +51,7 @@ class Portfolio extends Component {
                                     text="Website I contributed to during my time at the Difference Engine."
                                     url="http://resume.cdanmar.com/"
                                     github="https://github.com/cdanmar/react_router_bootstrap"
-                                    image="https://source.unsplash.com/31hjRkCJrdo/320x240"
+                                    image="https://res.cloudinary.com/cdanmar/image/upload/w_500,c_scale/v1516686690/toys/youtube_toy.png"
                                 />
                                 <Projectcard
                                     title="Back of the Yards Coffee"
@@ -70,7 +69,6 @@ class Portfolio extends Component {
                                 />
                             </div>
                         </div>
-                    </div>
                 </div>
                 <br />
                 <br />

@@ -16,7 +16,7 @@ class Projectcard extends Component {
                     <div className="btn-group btn-group-sm" role="group" aria-label="...">
                         <a 
                             href={this.props.github} 
-                            className="btn btn-outline-secondary" role="button">
+                            className="btn btn-outline-dark" role="button">
                             <i className="fa fa-github" aria-hidden="true"></i> GitHub
                         </a>
                         <a href={this.props.url} className="btn btn-outline-primary" role="button">

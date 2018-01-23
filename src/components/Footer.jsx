@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
       <div className="container">
-        <span className="text-muted">Example Website Footer with example Copyright Component &#169; {new Date().getFullYear()}</span>
+          <span className="text-muted">Made with &lt;3 by <a href="https://github.com/cdanmar">@cdanmar</a></span>
       </div>
     </footer>
     );
