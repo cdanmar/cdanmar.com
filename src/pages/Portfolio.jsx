@@ -17,7 +17,8 @@ class Portfolio extends Component {
                         <h2 className="card-title">Project Showcase</h2>
                         <p className="card-text">A curated list of projects I have been working on lately.</p>
                         <p className="card-text">More recent projects are usually built in React, while past projects are mostly built on Ruby on Rails. Not everything is "live", I am currently in the process of migrating a lot of projects to AWS.</p>
-                        <a href="https://reactjs.org/" className="btn btn-outline-dark"> <i className="fa fa-github" aria-hidden="true"></i> Check out my GitHub!</a>
+                        <p className="card-text"><b>Note:</b> Some of these projects are hosted on Heroku Free Tier. This means they need a second to "spin up" once you click on the link.</p>
+                        <a href="https://github.com/cdanmar" className="btn btn-outline-dark"> <i className="fa fa-github" aria-hidden="true"></i> Check out my GitHub!</a>
                     </div>
                 </div>
                 <div className="container">
@@ -45,27 +46,27 @@ class Portfolio extends Component {
                                     image="https://res.cloudinary.com/cdanmar/image/upload/w_320,c_fit/v1516421505/toys/js_clock.png"
                                 />
                             </div>
-                            <div className="card-deck">
+                            <div className="card-deck mx-auto">
                                 <Projectcard
-                                    title="Back of the Yards Coffee"
-                                    text="Website I contributed to during my time at the Difference Engine."
-                                    url="http://resume.cdanmar.com/"
-                                    github="https://github.com/cdanmar/react_router_bootstrap"
+                                    title="YouTube Toy App"
+                                    text="Based on my very first React app. Designed to practice working with APIs."
+                                    url="https://youtube.cdanmar.com/"
+                                    github="https://github.com/cdanmar/react_youtube"
                                     image="https://res.cloudinary.com/cdanmar/image/upload/w_500,c_scale/v1516686690/toys/youtube_toy.png"
                                 />
                                 <Projectcard
-                                    title="Back of the Yards Coffee"
-                                    text="Website I contributed to during my time at the Difference Engine."
-                                    url="http://resume.cdanmar.com/"
+                                    title="React Router/Bootstrap Template"
+                                    text="I created this template to help me get started on my React projects faster. This site is based on this template!"
+                                    url="http://react-bt-template.cdanmar.com/"
                                     github="https://github.com/cdanmar/react_router_bootstrap"
-                                    image="https://source.unsplash.com/31hjRkCJrdo/320x240"
+                                    image="https://res.cloudinary.com/cdanmar/image/upload/w_500,c_scale/v1516738430/toys/bootstrap_react.png"
                                 />
                                 <Projectcard
-                                    title="Back of the Yards Coffee"
-                                    text="Website I contributed to during my time at the Difference Engine."
-                                    url="http://resume.cdanmar.com/"
-                                    github="https://github.com/cdanmar/react_router_bootstrap"
-                                    image="https://source.unsplash.com/31hjRkCJrdo/320x240"
+                                    title="JS Drum"
+                                    text="Toy app I created to experiment key/browser interaction in JavaScript"
+                                    url="https://cdanmar.github.io/js-drum/"
+                                    github="https://github.com/cdanmar/js-drum/tree/master"
+                                    image="https://res.cloudinary.com/cdanmar/image/upload/w_500,c_scale,/v1516740643/toys/drum2.png"
                                 />
                             </div>
                         </div>

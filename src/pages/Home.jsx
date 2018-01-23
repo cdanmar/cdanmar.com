@@ -27,7 +27,6 @@ class Home extends Component {
             <h2 className="card-title">Welcome to my Personal Page!</h2>
             <p className="card-text">You have reached cdanmar.com, the personal page of Carlos Martinez. While the domain cdanmar.com has been a central hub of many experiments and projects in the past, the main domain itself has been sitting empty for years...but no more!</p>
             <p className="card-text">Part portfolio, part catalog, I plan to turn cdanmar.com into a repository of apps and tutorials in the hopes it will help someone out in their coding journey. For now, this serves as a landing page for curious recruiters wanting to know more about me and what I have been up to.</p>
-            <p className="card-text">Current Job Search Status: <button type="button" class="btn btn-sm btn-success disabled">Looking</button></p>
             
             <a href="https://reactjs.org/" className="card-link">Built with React</a>
             <a href="https://aws.amazon.com/mobile/" className="card-link">Serverless Hosting via AWS</a>

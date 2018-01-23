@@ -19,7 +19,7 @@ class About extends Component {
                 <br />
                 <h3>Carlos Martinez
                 </h3>
-                <p><i>"Man, I finally got the CSS right!"</i></p>
+                <p className="card-text">Current Job Search Status:  <button type="button" class="btn btn-sm btn-success disabled">Looking</button></p>
                 <ul className="list-inline list-social-icons mb-0">
                 <li className="list-inline-item">
                   <a href="mailto:cdanmar@gmail.com">
@@ -50,11 +50,18 @@ class About extends Component {
             </div>
             <div>
               <p>
-                Blue bottle gochujang cred everyday carry poutine lyft messenger bag small batch craft beer umami yuccie paleo. Salvia meggings mixtape, you probably haven't heard of them cronut banh mi meditation pitchfork distillery. Actually leggings williamsburg fanny pack tacos. Air plant iceland cred raw denim flexitarian mlkshk irony. La croix meh selvage squid 8-bit, raclette literally pug williamsburg.
+                I'm a bit of an oddball in a world of hyper-specialization. I have a huge, insatiable curiosity for all things tech since I can remember, and this has led me to try out new things and take on increasingly greater challenges. I started out as your typical IT technician, moved up to Systems Administration, and now I am taking on Development and Automation.
               </p>
               <p>
-                Readymade microdosing air plant waistcoat yr bicycle rights. Glossier master cleanse beard, put a bird on it flexitarian hella la croix cornhole fam bicycle rights. Sartorial mustache franzen, tilde echo park retro migas health goth banjo crucifix brunch venmo four loko marfa. Heirloom banjo chillwave, post-ironic chia four dollar toast tousled unicorn scenester chambray small batch pour-over. Selfies bitters yuccie enamel pin vape 3 wolf moon.
+                I feel just as confident building web applications as I do designing the infrastructure that runs them. The way the tech sector is evolving, I often find myself doing both at the same time (for example, creating a React App, setting up an API with AWS API gateway, and deploying to CloudFront, all in one afternoon).
               </p>
+              <p>
+                My interests are always fluid and varied. Development and Serverless Infrastructure are my current fascinations. Tomorrow, it could be AI and Big Data. The only constant is that I never sit still, and I am always trying to stay ahead of the curve.
+              </p>
+              <p>
+                If you are on the lookout for a down to earth, open minded and inquisitive individual to join your team, you're in luck! I'm always on the lookout for a new challenge, so feel free to reach out!
+              </p>
+
             </div>
           </div>
           <br />
